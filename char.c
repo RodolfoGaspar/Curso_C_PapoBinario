@@ -14,7 +14,7 @@ int main(void){
   sc=127;
   printf("O valor de sc eh: %i\n", sc);
 
-  sc=128;
+  sc=129;
   printf("O valor de sc eh: %i\n", sc);
 
   uc = 255;
@@ -23,8 +23,18 @@ int main(void){
   uc=127;
   printf("O valor de uc eh: %i\n", uc);
 
-  uc=128;
+  uc=129;
   printf("O valor de uc eh: %i\n", uc);
+
+  sc = 10;
+  printf("O valor de sc eh: %i\n", sc);
+
+  sc = 0xa;
+  printf("O valor de sc eh: %i\n", sc);
+
+  sc = '\n';
+  printf("O valor de sc eh: %i\n", sc);
+    
 
   return 0;
 }
